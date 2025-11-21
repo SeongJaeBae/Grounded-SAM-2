@@ -1,3 +1,4 @@
+
 # SAM 2
 .vscode/
 .DS_Store
@@ -145,3 +146,9 @@ dmypy.json
 outputs/
 
 .idea/
+
+
+
+custom_video_frames/
+YOLOv8/
+assets/
