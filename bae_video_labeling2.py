@@ -17,7 +17,7 @@ from utils.video_utils import create_video_from_images
 Hyperparam for Ground and Tracking
 """
 
-video_name = "move_front"
+video_name = "lane_data_keti_front"
 MODEL_ID = "IDEA-Research/grounding-dino-tiny"
 VIDEO_PATH = f"./assets/{video_name}.avi"
 TEXT_PROMPT = "white line."

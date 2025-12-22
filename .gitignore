@@ -152,3 +152,7 @@ outputs/
 custom_video_frames/
 YOLOv8/
 assets/
+
+input_images/
+input_images_2/
+temp_numeric_frames/

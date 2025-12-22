@@ -19,9 +19,9 @@ Hyper parameters
 """
 parser = argparse.ArgumentParser()
 parser.add_argument('--grounding-model', default="IDEA-Research/grounding-dino-tiny")
-parser.add_argument("--text-prompt", default="packet.")
+parser.add_argument("--text-prompt", default="lane line.")
 # parser.add_argument("--img-path", default="notebooks/images/mealkit2.jpg")
-parser.add_argument("--img-path", default="mealkit3.jpg")
+parser.add_argument("--img-path", default="lane_data2.jpg")
 parser.add_argument("--sam2-checkpoint", default="./checkpoints/sam2.1_hiera_large.pt")
 parser.add_argument("--sam2-model-config", default="configs/sam2.1/sam2.1_hiera_l.yaml")
 parser.add_argument("--output-dir", default="outputs/test_sam2.1")
